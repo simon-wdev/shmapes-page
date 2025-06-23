@@ -16,9 +16,22 @@
   }
 }
 
+.navbar{
+  background-color: transparent;
+  --bs-navbar-color: #EAEAEA;
+  --bs-navbar-active-color: #EAEAEA;
+  --bs-navbar-brand-color: #EAEAEA;
+  --bs-navbar-brand-hover-color: #FF2E63;
+  --bs-navbar-hover-color: grey;
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23FFFFFF' class='bi bi-list' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5'/%3E%3C/svg%3E");
+  --bs-navbar-toggler-border-color: transparent;
+  font-weight: bold;
+}
+
+
 #devlog {
-    background-color: #1B1E23;  /* sehr dunkles Grau, fast schwarz */
-    color: #EAEAEA;             /* helles Grau für Text */
+    background-color: #1B1E23; 
+    color: #EAEAEA;             
     padding: 2rem;
     margin-top: 2rem;
 }
@@ -54,6 +67,17 @@
 .card:hover{
   --bs-card-border-color: #FF2E63;
   --bs-card-border-width: 2px;
+}
+
+.list-group{
+  font-weight: 500;
+  --bs-list-group-border-color: #252A34;
+}
+
+#about{
+    background-color: #1B1E23; 
+    color: #EAEAEA;             
+    padding: 2rem;
 }
 
 footer{

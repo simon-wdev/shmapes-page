@@ -8,6 +8,29 @@
     <title>Shmapes</title>
 </head>
 <body>
+
+    <section id="navbar" class="gradient-background">
+        <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid container">
+    <a class="navbar-brand" href="#">
+        <img src="./assets/shmapes-logo.svg" alt="shmapes logo" height="24"/>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" aria-current="page" href="#feature-cards">Features</a>
+        <a class="nav-link" href="#devlog">Change-Log</a>
+        <a class="nav-link" href="#about">About</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+    </section>
+
     <section id="hero" class="gradient-background">
         <div class="container">
         <div class="row flex-lg-row-reverse align-items-center py-2"> 
@@ -27,9 +50,9 @@
 
     <section id="feature-cards">
         <div class="container mt-5">
-            <h1 class="features my-5">Aktuelle Features:</h1> 
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5"> 
-                <div class="col"> <div class="card shadow-sm"> 
+            <h1 class="features mt-5">Feature-Highlights:</h1> 
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3"> 
+                <div class="col"> <div class="card shadow-sm my-5"> 
                     <img class="gif-card" src="./assets/movement.gif" alt="Bild Spieler-Bewegung"> 
                     <div class="card-body"> 
                         <p class="card-text">Das Player-Shape ist frei steuerbar und verschießt automatisch Projektile auf den nächstgelegenen Gegner.</p> 
@@ -39,7 +62,7 @@
                     </div> 
                 </div> 
                 <div class="col"> 
-                    <div class="card shadow-sm "> 
+                    <div class="card shadow-sm my-5"> 
                         <img class="gif-card" src="./assets/dash.gif" alt="Bild Dash-Mechanik"/> 
                         <div class="card-body"> 
                             <p class="card-text"> Durch Drücken der Space-Taste kann der Spieler einen schnellen Dash ausführen, um Gefahren auszuweichen.</p> 
@@ -49,7 +72,7 @@
                     </div> 
                 </div> 
                 <div class="col"> 
-                    <div class="card shadow-sm"> 
+                    <div class="card shadow-sm my-5"> 
                         <img class="gif-card" src="./assets/particle.gif" alt="Bild Partikeleffekt"/> 
                         <div class="card-body">
                             <p class="card-text">Besiegte Gegner und Bullet-Impact lösen stylische Partikeleffekte aus und verstärken das visuelle Feedback.</p> 
@@ -59,6 +82,25 @@
                     </div> 
                 </div>
     </section>
+
+    <section id="feature-list" class="container my-5">
+        <h2>Komplette Feature-Liste:</h2>
+            <ul class="list-group list-group-flush my-3">
+                <li class="list-group-item">✅  Freies Player-Movement (WASD)</li>
+                <li class="list-group-item">✅  Automatisches Zielen & Schießen auf nächstgelegene Gegner</li>
+                <li class="list-group-item">✅  Dash-Fähigkeit (mit Space), um Gefahren auszuweichen</li>
+                <li class="list-group-item">✅  Partikeleffekte bei Treffern & besiegten Gegnern</li>
+                <li class="list-group-item">✅  Lebenssystem mit Ingame-HUD (Herzcontainer)</li>
+                <li class="list-group-item">✅  Automatischer Gegner-Spawner (skalierend über Zeit)</li>
+                <li class="list-group-item">✅  Screen-Wrap: Spieler kommt auf Gegenseite wieder rein</li>
+                <li class="list-group-item">✅  Blink-Animation (Invulnerability) bei Lebensverlust</li>
+                <li class="list-group-item">✅  Damage-System für Gegner und Spieler</li>
+                <li class="list-group-item">✅  Clean minimalistisches Shape-Design</li>
+            </ul>
+    </section>
+
+
+
 
     <section id="devlog" class="mt-5">
         <div class="container">
@@ -79,6 +121,21 @@
 </div>
     </section>
 
+
+<section id="about">
+    <div class="container">
+    <h3>About this Project:</h3>
+
+        <p>Hey! Ich bin Simon & ich liebe Indie-Games und minimalistische Designs. 
+            Aus dieser Leidenschaft ist <strong>"Shmapes."</strong> entstanden, mein erstes eigenes kleines Projekt in Godot. 
+            Inspiriert von Spielen wie <em>Vampire Survivors</em> und klassischen Shoot-'em-ups arbeite ich Stück für Stück daran, 
+            das Projekt weiter auszubauen und neue Features einzubauen. 
+            Dieses Projekt ist ein persönliches Lernprojekt und macht mir aktuell sehr viel Spaß!
+            Ich hoffe, ich kann irgendwann eine kleine aber feine Version vom Spiel veröffentlichen und dann zum nächsten Spiel übergehen.
+            Ich habe noch so viele Ideen und hoffe, dass ich alles umsetzen kann.
+        </p>
+    </div>
+</section>
 
 <footer class="py-3">
     © 2025 shmapes. | Simon Wachert - 
