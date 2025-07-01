@@ -51,10 +51,6 @@
     height: auto;
 }
 
-.text-nowrap{
-  white-space: nowrap;
-}
-
 .accordion{
   --bs-accordion-btn-color: white;
   --bs-accordion-btn-bg: #252A34;
